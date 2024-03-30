@@ -15,7 +15,7 @@ app.set("trust proxy", true);
 app.use(cookieParser());
 app.use(
   cors({
-    origin: ["http://localhost:5173", "https://zens-frontend.vercel.app/", "https://zens-backend-so35.onrender.com/"],
+    origin: ["http://localhost:5173", process.env.PRODUCT_HTTP],
     methods: ["GET", "POST", "PUT", "DELETE", "PATCH"],
     credentials: true,
   })
