@@ -69,7 +69,7 @@ function App() {
         {joke ? (
           <>
             <div className='px-8 py-16 xl:p-16 text-gray-600 font-medium'>{joke.content}</div>
-            <div className='p-16 border-t border-gray-200 flex items-center gap-12 justify-center'>
+            <div className='p-8 xl:p-16 border-t border-gray-200 flex items-center gap-8 justify-center'>
               <button className='btn btn-funny' onClick={() => rateJoke(joke._id, 'funny')}>
                 This is funny!
               </button>
