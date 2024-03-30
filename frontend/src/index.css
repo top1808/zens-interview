@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  width: 100vw;
+}
+
+.banner {
+  background-color: #29B363;
+}
+
+.btn {
+  padding: 12px 20px;
+  width: 240px;
+  color: white;
+  font-weight: 600;
+}
+
+.btn-funny {
+  background-color: #2C7EDB;
+}
+
+.btn-not_funny {
+  background-color: #29B363;
+}
